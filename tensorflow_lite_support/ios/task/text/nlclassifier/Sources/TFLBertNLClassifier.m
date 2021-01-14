@@ -13,7 +13,7 @@ See the License for the specific language governing permissions and
 limitations under the License.
 ==============================================================================*/
 #import "tensorflow_lite_support/ios/task/text/nlclassifier/Sources/TFLBertNLClassifier.h"
-#import "GTMDefines.h"
+#import <GoogleToolboxForMac/GTMDefines.h>
 #include "tensorflow_lite_support/cc/task/text/nlclassifier/bert_nl_classifier_c_api.h"
 #include "tensorflow_lite_support/cc/task/text/nlclassifier/nl_classifier_c_api_common.h"
 
